@@ -16,7 +16,7 @@ import java.util.List;
 @Controller
 public class ChatController {
 
-    private static final String PROJECT_ID = "gen-lang-client-0533321177";
+    private static final String PROJECT_ID = "";
 
     @MessageMapping("/sendMessage")
     @SendTo("/topic/messages")
